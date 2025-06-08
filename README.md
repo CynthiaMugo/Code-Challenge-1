@@ -16,17 +16,33 @@ This calculator uses a standard recipe for one cup of chai to determine the tota
 - Tea Leaves: 1 tablespoon  
 - Sugar: 2 teaspoons  
 
-# 
+# Boda Boda Fare Estimator
 
-## Setup/Installation Requirements
-* To run the project locally:
+A JavaScript program to estimate the total cost of a boda boda ride based on distance traveled.
 
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/cynthiamugo/Code-Challenge-1 .git
-2. Open the project folder in Visual Studio Code or your preferred code editor
+## Description
 
-3. Open the index.html file in your web browser to view the site and the console to run the code.
+This project calculates the fare for a Kenyan boda boda (motorbike taxi) ride using basic input from the user. It applies a standard base fare and adds a charge per kilometer.
+
+**Fare Rules:**
+- **Base Fare:** KES 50
+- **Per Kilometer:** KES 15/km
+
+Example:
+> If you travel 5 kilometers, your total fare will be:
+> - Base Fare: KES 50  
+> - Distance Fare: KES 75  
+> - **Total: KES 125**
+
+The program includes input validation and fun Swahili messages to make the experience enjoyable.
+
+## How to Use
+
+1. Open the `index.html` or run the JavaScript file in your browser console or a Node environment.
+2. You'll be prompted: Karibu! How many cups of Chai Bora would you like to make? || Unafika wapi Mkubwa? Kilometer ngapi?: || Unatuma Ngapi? (KES):
+3. Enter the required number.
+4. The estimated result is displayed in the console.
+
 ## Known Bugs
 There are currently no known bugs.
 If you encounter any issues or have suggestions for improvements, feel free to open an issue or create a pull request.
