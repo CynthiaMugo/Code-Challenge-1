@@ -34,7 +34,24 @@ Example:
 > - Distance Fare: KES 75  
 > - **Total: KES 125**
 
-The program includes input validation and fun Swahili messages to make the experience enjoyable.
+The program includes input validation.
+
+# Transaction Fee Estimator
+
+A simple JavaScript program that estimates transaction fees based on the amount a user wishes to send. This project demonstrates basic user input handling, conditional logic, and output formatting in the console.
+
+## Project Description
+
+This calculator estimates how much money will be debited from your account when sending a given amount, based on a simplified fee structure:
+
+- **Base Fee:** 1.5% of the amount to send.
+- **Minimum Fee:** KES 10
+- **Maximum Fee:** KES 70
+
+If 1.5% of the amount is:
+- Less than KES 10 → you’ll be charged KES 10.
+- More than KES 70 → you’ll be charged KES 70.
+- Otherwise → you’ll be charged the exact 1.5%.
 
 ## How to Use
 
