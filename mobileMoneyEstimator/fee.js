@@ -9,17 +9,17 @@ function estimateTransactionFee() {
 
     // Solution
     const transactionFee = 0.015; // 1.5% transaction fee
-    const minFee = 10; // Minimum fee in KES
-    const maxFee = 70; // Maximum fee in KES
+    // const minFee = 10; // Minimum fee in KES
+    // const maxFee = 70; // Maximum fee in KES
 
     // Calculate the fee based on the amount to send
     const calculatedFee = amount * transactionFee;
 
     // Conditional logic to calculate the fee
-    if (calculatedFee < minFee) {
-        finalFee = minFee; // Return minimum fee if calculated fee is less than minimum
-    } else if (calculatedFee > maxFee) {
-        finalFee = maxFee; // Return maximum fee if calculated fee is more than maximum
+    if (calculatedFee < 10) {
+        finalFee = 10; // Return minimum fee if calculated fee is less than minimum
+    } else if (calculatedFee > 70) {
+        finalFee = 70; // Return maximum fee if calculated fee is more than maximum
     } else {
         finalFee = calculatedFee; // Return the calculated fee if it is within the range
     }
